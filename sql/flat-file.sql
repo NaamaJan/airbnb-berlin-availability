@@ -1,3 +1,8 @@
+
+-- Content
+--The datasets were scraped on November 07th, 2018 untill November 06th, 2019 and contain detailed listings data, review data and calendar data of current Airbnb listings in Berlin.
+--The tables on the datasets:
+
 select * from dbo.listings_summary$
 
 select * from dbo.reviews_summary$
@@ -15,7 +20,7 @@ select * from db01.train_test_all
 -------------------------------------------------------------------------------------------------------------------------
 
 --reviews_summary
---comments
+--grouping the comments of the properties
 
 select * from dbo.reviews_summary$
 
