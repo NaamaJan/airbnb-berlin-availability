@@ -1,3 +1,5 @@
+--Content
+--dbo.calendar_summary were scraped on November 07th, 2018 untill November 06th, 2019 review calendar data of  Airbnb listings in Berlin.
 
 -- enrich dbo.calendar_summary table with 2 new variables: 
 --1. is_day_booked (the opposite from available)
