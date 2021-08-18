@@ -47,9 +47,15 @@ select * from db01.comments
 
 
 SELECT 
-t.listing_id,  t.start_date_period, t.end_date_period, t.num_of_day_in_period, t.num_of_booked_days, t.avg_dollar_price_in_period,
+t.listing_id,
 t.target_start_date_period, t.target_end_date_period, 
-t.target_num_of_day_in_period, t.target_num_of_booked_days,  t.target_avg_dollar_price_in_period,
+t.target_num_of_day_in_period, t.target_num_of_booked_days,
+CASE
+WHEN t.target_num_of_booked_days/t.target_num_of_day_in_period >0.833 THEN 1 ELSE 0 END AS booked_up_target,
+t.target_avg_dollar_price_in_period,
+t.start_date_period as start_date_previous_period , t.end_date_period as end_date_previous_period, t.num_of_day_in_period as num_of_day_in_previous_period, t.num_of_booked_days as num_of_booked_days_in_previous_period,
+round(CAST((t.num_of_booked_days) AS FLOAT)/CAST((t.num_of_day_in_period) AS FLOAT),2) AS occupancy_last_period,
+t.avg_dollar_price_in_period as avg_dollar_price_in_previous_period,
 a.host_id,
 a.neighbourhood_group,
 CASE
