@@ -1,0 +1,54 @@
+,var,spearmanr,py_mechkar,univariable_analysis_count,lasso,random_forest,gradient_boosting,linear_svc,ridge,multivariable_analysis_count,total_count
+2,kmean_cluster_availability,1,1,2,1,1,0,1,1,4,6
+3,target_num_of_day_in_period_minus_num_of_day_in_previous_period,1,1,2,1,1,1,1,0,4,6
+64,room_type_Entire home/apt_require_guest_phone_verification_t,1,1,2,0,0,0,1,1,2,4
+125,host_response_time_missing_host_response_time_bed_type_Real Bed,1,1,2,0,1,0,0,1,2,4
+156,host_response_time_within an hour_require_guest_phone_verification_f,1,1,2,0,0,0,1,1,2,4
+157,host_response_time_within an hour_require_guest_phone_verification_t,1,1,2,0,0,0,1,1,2,4
+160,host_response_time_missing_host_response_time_require_guest_phone_verification_f,1,1,2,0,1,0,0,1,2,4
+227,host_is_superhost_t_require_guest_phone_verification_t,1,1,2,0,0,0,1,1,2,4
+431,require_guest_phone_verification_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,1,1,2,4
+567,children���s_dinnerware,1,1,2,0,0,0,1,1,2,4
+568,long_term_stays_allowed,1,1,2,0,1,0,1,0,2,4
+620,property_type_Apartment,1,1,2,0,0,0,1,1,2,4
+653,host_response_time_missing_host_response_time,1,1,2,0,1,0,1,0,2,4
+689,host_response_rate_cat_host_response_rate_missing,1,1,2,0,1,0,1,1,3,5
+695,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_0%_to_25%,1,1,2,0,0,0,1,1,2,4
+697,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_50%_to_75%,1,1,2,0,1,0,1,0,2,4
+699,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_missing,1,1,2,1,1,0,1,1,4,6
+737,DaysPassed_first_review_cat_DaysPassed_first_review_75%_to_100%,1,1,2,0,1,0,1,0,2,4
+766,latitude,1,1,2,0,1,0,1,1,3,5
+767,longitude,1,1,2,0,1,0,1,0,2,4
+769,price,1,1,2,0,1,0,1,0,2,4
+770,minimum_nights,1,1,2,1,1,0,1,0,3,5
+771,number_of_reviews,1,1,2,1,1,0,1,0,3,5
+772,availability_365,1,1,2,1,1,0,1,1,4,6
+773,accommodates,1,1,2,0,1,0,1,0,2,4
+775,cleaning_fee,1,1,2,1,1,0,1,0,3,5
+776,extra_people,1,1,2,1,1,0,1,0,3,5
+778,sqrt_calculated_host_listings_count,1,1,2,0,1,0,1,0,2,4
+779,sigmoid_calculated_host_listings_count,1,1,2,0,1,0,0,1,2,4
+781,availability_60_minus_availability_90,1,1,2,0,1,1,1,0,3,5
+782,availability_30_minus_availability_60,1,1,2,0,1,0,1,0,2,4
+783,availability_365_minus_availability_90,1,1,2,1,1,1,1,1,5,7
+784,availability_30_minus_availability_90,1,1,2,0,1,0,1,0,2,4
+785,availability_365_minus_availability_60,1,1,2,1,1,1,1,1,5,7
+786,target_num_of_day_in_period_div_num_of_day_in_previous_period,1,1,2,0,1,1,0,1,3,5
+787,occupancy_last_period_minus_availability_60,1,1,2,1,1,0,1,1,4,6
+788,occupancy_last_period_minus_availability_365,1,1,2,0,1,1,1,1,4,6
+789,occupancy_last_period_minus_availability_90,1,1,2,1,1,1,1,1,5,7
+790,mean_temperatures_in_previous_period,1,1,2,0,1,1,1,0,3,5
+791,mean_temperatures_in_target_period,1,1,2,0,1,1,1,1,4,6
+792,mean_of_min_temperatures_in_previous_period,1,1,2,0,1,1,1,0,3,5
+793,mean_of_min_temperatures_in_target_period,1,1,2,0,1,0,1,1,3,5
+794,mean_of_max_temperatures_in_previous_period,1,1,2,0,1,1,1,0,3,5
+795,mean_of_max_temperatures_in_target_period,1,1,2,0,1,1,1,1,4,6
+796,mean_precipitation_millimeters_in_previous_period,1,1,2,0,1,0,1,1,3,5
+797,mean_precipitation_millimeters_in_target_period,1,1,2,1,1,1,1,0,4,6
+798,mean_precipitation_days_in_previous_period,1,1,2,0,1,1,0,1,3,5
+799,mean_precipitation_days_in_target_period,1,1,2,0,1,0,1,1,3,5
+800,mean_sunshine_hours_in_day_in_previous_period,1,1,2,0,1,1,1,0,3,5
+801,mean_sunshine_hours_in_day_in_target_period,1,1,2,0,1,0,0,1,2,4
+802,mean_sunshine_hours_in_month_in_previous_period,1,1,2,0,1,1,1,1,4,6
+803,mean_sunshine_hours_in_month_in_target_period,1,1,2,1,1,0,1,1,4,6
+804,distance_from_center,1,1,2,1,1,0,1,0,3,5

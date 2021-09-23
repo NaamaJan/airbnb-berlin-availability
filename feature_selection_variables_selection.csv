@@ -1,0 +1,806 @@
+,var,spearmanr,py_mechkar,univariable_analysis_count,lasso,random_forest,gradient_boosting,linear_svc,ridge,multivariable_analysis_count,total_count
+0,listing_id,1,1,2,0,1,0,0,0,1,3
+1,host_id,1,1,2,0,1,0,0,0,1,3
+2,kmean_cluster_availability,1,1,2,1,1,0,1,1,4,6
+3,target_num_of_day_in_period_minus_num_of_day_in_previous_period,1,1,2,1,1,1,1,0,4,6
+4,room_type_Private room_host_response_time_within an hour,1,1,2,0,0,0,1,0,1,3
+5,room_type_Private room_host_response_time_within a few hours,1,1,2,0,0,0,0,0,0,2
+6,room_type_Private room_host_response_time_missing_host_response_time,1,1,2,0,0,0,1,0,1,3
+7,room_type_Private room_host_response_time_within a day,1,1,2,0,0,0,0,0,0,2
+8,room_type_Private room_host_response_time_a few days or more,1,1,2,0,0,0,0,0,0,2
+9,room_type_Entire home/apt_host_response_time_within an hour,1,1,2,0,0,0,0,0,0,2
+10,room_type_Entire home/apt_host_response_time_within a few hours,1,1,2,0,0,0,0,0,0,2
+11,room_type_Entire home/apt_host_response_time_missing_host_response_time,1,1,2,0,0,0,0,0,0,2
+12,room_type_Entire home/apt_host_response_time_within a day,1,1,2,0,0,0,1,0,1,3
+13,room_type_Entire home/apt_host_response_time_a few days or more,1,1,2,0,0,0,0,0,0,2
+14,room_type_Shared room_host_response_time_within an hour,1,1,2,0,0,0,0,0,0,2
+15,room_type_Shared room_host_response_time_missing_host_response_time,1,1,2,0,0,0,0,1,1,3
+16,room_type_Shared room_host_response_time_within a day,1,1,2,0,0,0,0,0,0,2
+17,room_type_Shared room_host_response_time_a few days or more,1,1,2,0,0,0,0,1,1,3
+18,room_type_Private room_host_is_superhost_t,1,1,2,0,0,0,0,0,0,2
+19,room_type_Private room_host_is_superhost_f,1,1,2,0,0,0,0,0,0,2
+20,room_type_Private room_host_is_superhost_missing_host_is_superhost,1,1,2,0,0,0,0,0,0,2
+21,room_type_Entire home/apt_host_is_superhost_t,1,1,2,0,0,0,1,0,1,3
+22,room_type_Entire home/apt_host_is_superhost_f,1,1,2,0,0,0,0,0,0,2
+23,room_type_Entire home/apt_host_is_superhost_missing_host_is_superhost,1,1,2,0,0,0,0,0,0,2
+24,room_type_Shared room_host_is_superhost_t,1,1,2,0,0,0,0,1,1,3
+25,room_type_Shared room_host_is_superhost_f,1,1,2,0,0,0,0,0,0,2
+26,room_type_Private room_host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+27,room_type_Private room_host_has_profile_pic_f,1,1,2,0,0,0,0,0,0,2
+28,room_type_Private room_host_has_profile_pic_missing_host_has_profile_pic,1,1,2,0,0,0,0,0,0,2
+29,room_type_Entire home/apt_host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+30,room_type_Entire home/apt_host_has_profile_pic_f,1,1,2,0,0,0,0,0,0,2
+31,room_type_Entire home/apt_host_has_profile_pic_missing_host_has_profile_pic,1,1,2,0,0,0,0,0,0,2
+32,room_type_Shared room_host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+33,room_type_Private room_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+34,room_type_Private room_host_identity_verified_f,1,1,2,0,0,0,1,0,1,3
+35,room_type_Private room_host_identity_verified_missing_host_identity_verified,1,1,2,0,0,0,0,0,0,2
+36,room_type_Entire home/apt_host_identity_verified_t,1,1,2,0,0,0,1,0,1,3
+37,room_type_Entire home/apt_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+38,room_type_Entire home/apt_host_identity_verified_missing_host_identity_verified,1,1,2,0,0,0,0,0,0,2
+39,room_type_Shared room_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+40,room_type_Shared room_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+41,room_type_Private room_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+42,room_type_Private room_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+43,room_type_Private room_bed_type_Futon,1,1,2,0,0,0,0,1,1,3
+44,room_type_Entire home/apt_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+45,room_type_Entire home/apt_bed_type_Couch,1,1,2,0,0,0,0,0,0,2
+46,room_type_Entire home/apt_bed_type_Futon,1,1,2,0,0,0,0,1,1,3
+47,room_type_Entire home/apt_bed_type_Airbed,1,0,1,0,0,0,0,1,1,2
+48,room_type_Shared room_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+49,room_type_Shared room_bed_type_Couch,1,1,2,0,0,0,0,1,1,3
+50,room_type_Private room_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+51,room_type_Private room_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+52,room_type_Entire home/apt_instant_bookable_f,1,1,2,0,0,0,1,0,1,3
+53,room_type_Entire home/apt_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+54,room_type_Shared room_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+55,room_type_Shared room_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+56,room_type_Private room_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+57,room_type_Private room_require_guest_profile_picture_t,1,1,2,0,0,0,0,0,0,2
+58,room_type_Entire home/apt_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+59,room_type_Entire home/apt_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+60,room_type_Shared room_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+61,room_type_Private room_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+62,room_type_Private room_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+63,room_type_Entire home/apt_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+64,room_type_Entire home/apt_require_guest_phone_verification_t,1,1,2,0,0,0,1,1,2,4
+65,room_type_Shared room_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+66,room_type_Private room_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+67,room_type_Private room_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+68,room_type_Private room_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+69,room_type_Entire home/apt_cancellation_policy_moderate,1,1,2,0,0,0,1,0,1,3
+70,room_type_Entire home/apt_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+71,room_type_Entire home/apt_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+72,room_type_Entire home/apt_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+73,room_type_Entire home/apt_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+74,room_type_Shared room_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+75,room_type_Shared room_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+76,room_type_Shared room_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+77,room_type_Private room_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+78,room_type_Private room_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+79,room_type_Private room_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+80,room_type_Private room_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+81,room_type_Entire home/apt_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,1,0,1,3
+82,room_type_Entire home/apt_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+83,room_type_Shared room_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+84,room_type_Shared room_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+85,room_type_Shared room_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+86,host_response_time_within an hour_host_is_superhost_t,1,1,2,0,0,0,0,1,1,3
+87,host_response_time_within an hour_host_is_superhost_f,1,1,2,0,0,0,0,0,0,2
+88,host_response_time_within a few hours_host_is_superhost_t,1,1,2,0,0,0,0,0,0,2
+89,host_response_time_within a few hours_host_is_superhost_f,1,1,2,0,0,0,0,1,1,3
+90,host_response_time_missing_host_response_time_host_is_superhost_t,1,1,2,0,0,0,0,0,0,2
+91,host_response_time_missing_host_response_time_host_is_superhost_f,1,1,2,0,1,0,0,0,1,3
+92,host_response_time_missing_host_response_time_host_is_superhost_missing_host_is_superhost,1,1,2,0,0,0,0,0,0,2
+93,host_response_time_within a day_host_is_superhost_t,1,1,2,0,0,0,0,1,1,3
+94,host_response_time_within a day_host_is_superhost_f,1,1,2,0,0,0,0,0,0,2
+95,host_response_time_a few days or more_host_is_superhost_f,1,1,2,0,0,0,0,1,1,3
+96,host_response_time_within an hour_host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+97,host_response_time_within an hour_host_has_profile_pic_f,1,1,2,0,0,0,0,1,1,3
+98,host_response_time_within a few hours_host_has_profile_pic_t,1,1,2,0,0,0,0,1,1,3
+99,host_response_time_missing_host_response_time_host_has_profile_pic_t,1,1,2,0,1,0,0,0,1,3
+100,host_response_time_missing_host_response_time_host_has_profile_pic_f,1,1,2,0,0,0,0,0,0,2
+101,host_response_time_missing_host_response_time_host_has_profile_pic_missing_host_has_profile_pic,1,1,2,0,0,0,0,0,0,2
+102,host_response_time_within a day_host_has_profile_pic_t,1,1,2,0,0,0,1,0,1,3
+103,host_response_time_within a day_host_has_profile_pic_f,1,0,1,0,0,0,0,1,1,2
+104,host_response_time_a few days or more_host_has_profile_pic_t,1,1,2,0,0,0,0,1,1,3
+105,host_response_time_a few days or more_host_has_profile_pic_f,1,1,2,0,0,0,0,1,1,3
+106,host_response_time_within an hour_host_identity_verified_t,1,1,2,0,0,0,1,0,1,3
+107,host_response_time_within an hour_host_identity_verified_f,1,1,2,0,0,0,1,0,1,3
+108,host_response_time_within a few hours_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+109,host_response_time_within a few hours_host_identity_verified_f,1,1,2,0,0,0,0,1,1,3
+110,host_response_time_missing_host_response_time_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+111,host_response_time_missing_host_response_time_host_identity_verified_f,1,1,2,0,1,0,0,0,1,3
+112,host_response_time_missing_host_response_time_host_identity_verified_missing_host_identity_verified,1,1,2,0,0,0,0,0,0,2
+113,host_response_time_within a day_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+114,host_response_time_within a day_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+115,host_response_time_a few days or more_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+116,host_response_time_a few days or more_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+117,host_response_time_within an hour_bed_type_Real Bed,1,1,2,0,0,0,0,1,1,3
+118,host_response_time_within an hour_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+119,host_response_time_within an hour_bed_type_Couch,1,1,2,0,0,0,0,0,0,2
+120,host_response_time_within an hour_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+121,host_response_time_within an hour_bed_type_Airbed,1,1,2,0,0,0,0,1,1,3
+122,host_response_time_within a few hours_bed_type_Real Bed,1,1,2,0,0,0,0,1,1,3
+123,host_response_time_within a few hours_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,1,1,3
+124,host_response_time_within a few hours_bed_type_Futon,1,1,2,0,0,0,0,1,1,3
+125,host_response_time_missing_host_response_time_bed_type_Real Bed,1,1,2,0,1,0,0,1,2,4
+126,host_response_time_missing_host_response_time_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+127,host_response_time_missing_host_response_time_bed_type_Couch,1,1,2,0,0,0,0,1,1,3
+128,host_response_time_missing_host_response_time_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+129,host_response_time_missing_host_response_time_bed_type_Airbed,1,0,1,0,0,0,0,1,1,2
+130,host_response_time_within a day_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+131,host_response_time_within a day_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+132,host_response_time_within a day_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+133,host_response_time_a few days or more_bed_type_Real Bed,1,1,2,0,0,0,0,1,1,3
+134,host_response_time_a few days or more_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,1,1,3
+135,host_response_time_a few days or more_bed_type_Futon,1,0,1,0,0,0,0,0,0,1
+136,host_response_time_within an hour_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+137,host_response_time_within an hour_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+138,host_response_time_within a few hours_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+139,host_response_time_within a few hours_instant_bookable_t,1,1,2,0,0,0,0,1,1,3
+140,host_response_time_missing_host_response_time_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+141,host_response_time_missing_host_response_time_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+142,host_response_time_within a day_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+143,host_response_time_within a day_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+144,host_response_time_a few days or more_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+145,host_response_time_a few days or more_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+146,host_response_time_within an hour_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+147,host_response_time_within an hour_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+148,host_response_time_within a few hours_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+149,host_response_time_within a few hours_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+150,host_response_time_missing_host_response_time_require_guest_profile_picture_f,1,1,2,0,1,0,0,0,1,3
+151,host_response_time_missing_host_response_time_require_guest_profile_picture_t,1,1,2,0,0,0,0,0,0,2
+152,host_response_time_within a day_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+153,host_response_time_within a day_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+154,host_response_time_a few days or more_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+155,host_response_time_a few days or more_require_guest_profile_picture_t,1,0,1,0,0,0,0,0,0,1
+156,host_response_time_within an hour_require_guest_phone_verification_f,1,1,2,0,0,0,1,1,2,4
+157,host_response_time_within an hour_require_guest_phone_verification_t,1,1,2,0,0,0,1,1,2,4
+158,host_response_time_within a few hours_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+159,host_response_time_within a few hours_require_guest_phone_verification_t,1,1,2,0,0,0,0,1,1,3
+160,host_response_time_missing_host_response_time_require_guest_phone_verification_f,1,1,2,0,1,0,0,1,2,4
+161,host_response_time_missing_host_response_time_require_guest_phone_verification_t,1,1,2,0,0,0,0,1,1,3
+162,host_response_time_within a day_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+163,host_response_time_within a day_require_guest_phone_verification_t,1,1,2,0,0,0,0,1,1,3
+164,host_response_time_a few days or more_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+165,host_response_time_a few days or more_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+166,host_response_time_within an hour_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+167,host_response_time_within an hour_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+168,host_response_time_within an hour_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+169,host_response_time_within an hour_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,1,1,3
+170,host_response_time_within a few hours_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+171,host_response_time_within a few hours_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,1,1,3
+172,host_response_time_within a few hours_cancellation_policy_flexible,1,1,2,0,0,0,0,1,1,3
+173,host_response_time_within a few hours_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,1,1,3
+174,host_response_time_missing_host_response_time_cancellation_policy_moderate,1,1,2,0,0,0,1,0,1,3
+175,host_response_time_missing_host_response_time_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+176,host_response_time_missing_host_response_time_cancellation_policy_flexible,1,1,2,0,0,0,1,0,1,3
+177,host_response_time_missing_host_response_time_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+178,host_response_time_missing_host_response_time_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,1,1,3
+179,host_response_time_within a day_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+180,host_response_time_within a day_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+181,host_response_time_within a day_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+182,host_response_time_a few days or more_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+183,host_response_time_a few days or more_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+184,host_response_time_a few days or more_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+185,host_response_time_within an hour_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,1,1,3
+186,host_response_time_within an hour_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+187,host_response_time_within an hour_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,1,1,3
+188,host_response_time_within a few hours_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,1,1,3
+189,host_response_time_within a few hours_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+190,host_response_time_within a few hours_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,1,1,3
+191,host_response_time_missing_host_response_time_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+192,host_response_time_missing_host_response_time_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+193,host_response_time_missing_host_response_time_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+194,host_response_time_missing_host_response_time_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,1,1,3
+195,host_response_time_within a day_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,1,1,3
+196,host_response_time_within a day_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+197,host_response_time_within a day_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,1,1,3
+198,host_response_time_a few days or more_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+199,host_response_time_a few days or more_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+200,host_response_time_a few days or more_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+201,host_is_superhost_t_host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+202,host_is_superhost_f_host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+203,host_is_superhost_f_host_has_profile_pic_f,1,1,2,0,0,0,0,0,0,2
+204,host_is_superhost_missing_host_is_superhost_host_has_profile_pic_missing_host_has_profile_pic,1,1,2,0,0,0,0,0,0,2
+205,host_is_superhost_t_host_identity_verified_t,1,1,2,0,0,0,1,0,1,3
+206,host_is_superhost_t_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+207,host_is_superhost_f_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+208,host_is_superhost_f_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+209,host_is_superhost_missing_host_is_superhost_host_identity_verified_missing_host_identity_verified,1,1,2,0,0,0,0,0,0,2
+210,host_is_superhost_t_bed_type_Real Bed,1,1,2,0,0,0,0,1,1,3
+211,host_is_superhost_t_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,1,1,3
+212,host_is_superhost_t_bed_type_Futon,1,1,2,0,0,0,0,1,1,3
+213,host_is_superhost_f_bed_type_Real Bed,1,1,2,0,0,0,0,1,1,3
+214,host_is_superhost_f_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+215,host_is_superhost_f_bed_type_Airbed,1,1,2,0,0,0,0,1,1,3
+216,host_is_superhost_missing_host_is_superhost_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+217,host_is_superhost_t_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+218,host_is_superhost_t_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+219,host_is_superhost_f_instant_bookable_f,1,1,2,0,0,0,1,0,1,3
+220,host_is_superhost_missing_host_is_superhost_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+221,host_is_superhost_t_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+222,host_is_superhost_t_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+223,host_is_superhost_f_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+224,host_is_superhost_f_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+225,host_is_superhost_missing_host_is_superhost_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+226,host_is_superhost_t_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+227,host_is_superhost_t_require_guest_phone_verification_t,1,1,2,0,0,0,1,1,2,4
+228,host_is_superhost_f_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+229,host_is_superhost_f_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+230,host_is_superhost_missing_host_is_superhost_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+231,host_is_superhost_t_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+232,host_is_superhost_t_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+233,host_is_superhost_t_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+234,host_is_superhost_t_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,1,1,3
+235,host_is_superhost_f_cancellation_policy_moderate,1,1,2,0,0,0,1,0,1,3
+236,host_is_superhost_f_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,1,1,3
+237,host_is_superhost_f_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+238,host_is_superhost_f_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+239,host_is_superhost_f_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,1,1,3
+240,host_is_superhost_missing_host_is_superhost_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+241,host_is_superhost_missing_host_is_superhost_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+242,host_is_superhost_t_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+243,host_is_superhost_t_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+244,host_is_superhost_f_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+245,host_is_superhost_f_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+246,host_is_superhost_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+247,host_is_superhost_f_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+248,host_is_superhost_missing_host_is_superhost_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+249,host_is_superhost_missing_host_is_superhost_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+250,host_is_superhost_missing_host_is_superhost_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+251,host_has_profile_pic_t_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+252,host_has_profile_pic_t_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+253,host_has_profile_pic_f_host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+254,host_has_profile_pic_f_host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+255,host_has_profile_pic_missing_host_has_profile_pic_host_identity_verified_missing_host_identity_verified,1,1,2,0,0,0,0,0,0,2
+256,host_has_profile_pic_t_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+257,host_has_profile_pic_t_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+258,host_has_profile_pic_t_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+259,host_has_profile_pic_t_bed_type_Airbed,1,1,2,0,0,0,0,1,1,3
+260,host_has_profile_pic_f_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+261,host_has_profile_pic_f_bed_type_Futon,1,1,2,0,0,0,0,1,1,3
+262,host_has_profile_pic_missing_host_has_profile_pic_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+263,host_has_profile_pic_t_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+264,host_has_profile_pic_t_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+265,host_has_profile_pic_f_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+266,host_has_profile_pic_missing_host_has_profile_pic_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+267,host_has_profile_pic_t_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+268,host_has_profile_pic_t_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+269,host_has_profile_pic_t_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+270,host_has_profile_pic_t_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+271,host_has_profile_pic_t_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+272,host_has_profile_pic_f_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+273,host_has_profile_pic_missing_host_has_profile_pic_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+274,host_has_profile_pic_missing_host_has_profile_pic_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+275,host_has_profile_pic_t_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+276,host_has_profile_pic_t_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+277,host_has_profile_pic_t_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+278,host_has_profile_pic_t_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+279,host_has_profile_pic_f_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+280,host_has_profile_pic_f_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+281,host_has_profile_pic_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+282,host_has_profile_pic_missing_host_has_profile_pic_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+283,host_has_profile_pic_missing_host_has_profile_pic_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+284,host_has_profile_pic_missing_host_has_profile_pic_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+285,host_identity_verified_t_bed_type_Real Bed,1,1,2,0,0,0,1,0,1,3
+286,host_identity_verified_t_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+287,host_identity_verified_t_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+288,host_identity_verified_f_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+289,host_identity_verified_f_bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+290,host_identity_verified_f_bed_type_Couch,1,1,2,0,0,0,0,0,0,2
+291,host_identity_verified_f_bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+292,host_identity_verified_f_bed_type_Airbed,1,1,2,0,0,0,0,0,0,2
+293,host_identity_verified_missing_host_identity_verified_bed_type_Real Bed,1,1,2,0,0,0,0,0,0,2
+294,host_identity_verified_t_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+295,host_identity_verified_t_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+296,host_identity_verified_f_instant_bookable_f,1,1,2,0,0,0,1,0,1,3
+297,host_identity_verified_f_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+298,host_identity_verified_missing_host_identity_verified_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+299,host_identity_verified_t_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+300,host_identity_verified_t_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+301,host_identity_verified_f_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+302,host_identity_verified_f_require_guest_profile_picture_t,1,1,2,0,0,0,0,0,0,2
+303,host_identity_verified_missing_host_identity_verified_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+304,host_identity_verified_t_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+305,host_identity_verified_t_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+306,host_identity_verified_f_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+307,host_identity_verified_f_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+308,host_identity_verified_missing_host_identity_verified_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+309,host_identity_verified_t_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+310,host_identity_verified_t_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+311,host_identity_verified_t_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+312,host_identity_verified_t_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+313,host_identity_verified_f_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+314,host_identity_verified_f_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+315,host_identity_verified_f_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+316,host_identity_verified_f_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+317,host_identity_verified_missing_host_identity_verified_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+318,host_identity_verified_missing_host_identity_verified_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+319,host_identity_verified_t_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+320,host_identity_verified_t_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+321,host_identity_verified_t_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+322,host_identity_verified_t_concat_comments_sentiment_negative_sentiment,1,0,1,0,0,0,0,0,0,1
+323,host_identity_verified_f_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+324,host_identity_verified_f_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+325,host_identity_verified_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+326,host_identity_verified_f_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+327,host_identity_verified_missing_host_identity_verified_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+328,host_identity_verified_missing_host_identity_verified_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+329,host_identity_verified_missing_host_identity_verified_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+330,bed_type_Real Bed_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+331,bed_type_Real Bed_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+332,bed_type_Pull-out Sofa_instant_bookable_f,1,1,2,0,0,0,0,1,1,3
+333,bed_type_Couch_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+334,bed_type_Futon_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+335,bed_type_Futon_instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+336,bed_type_Airbed_instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+337,bed_type_Airbed_instant_bookable_t,1,1,2,0,0,0,0,1,1,3
+338,bed_type_Real Bed_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+339,bed_type_Real Bed_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+340,bed_type_Pull-out Sofa_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+341,bed_type_Pull-out Sofa_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+342,bed_type_Futon_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+343,bed_type_Airbed_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+344,bed_type_Real Bed_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+345,bed_type_Real Bed_require_guest_phone_verification_t,1,1,2,0,0,0,0,1,1,3
+346,bed_type_Pull-out Sofa_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+347,bed_type_Pull-out Sofa_require_guest_phone_verification_t,1,1,2,0,0,0,0,1,1,3
+348,bed_type_Couch_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+349,bed_type_Futon_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+350,bed_type_Airbed_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+351,bed_type_Real Bed_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+352,bed_type_Real Bed_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,1,1,3
+353,bed_type_Real Bed_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+354,bed_type_Real Bed_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+355,bed_type_Real Bed_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+356,bed_type_Pull-out Sofa_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+357,bed_type_Pull-out Sofa_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,1,1,3
+358,bed_type_Pull-out Sofa_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+359,bed_type_Couch_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+360,bed_type_Couch_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+361,bed_type_Couch_cancellation_policy_flexible,1,1,2,0,0,0,0,1,1,3
+362,bed_type_Futon_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+363,bed_type_Futon_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,1,1,3
+364,bed_type_Futon_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+365,bed_type_Airbed_cancellation_policy_strict_14_with_grace_period,1,0,1,0,0,0,0,1,1,2
+366,bed_type_Airbed_cancellation_policy_flexible,1,1,2,0,0,0,0,1,1,3
+367,bed_type_Real Bed_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,1,1,3
+368,bed_type_Real Bed_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+369,bed_type_Real Bed_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+370,bed_type_Real Bed_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,1,1,3
+371,bed_type_Pull-out Sofa_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+372,bed_type_Pull-out Sofa_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+373,bed_type_Pull-out Sofa_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+374,bed_type_Couch_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+375,bed_type_Couch_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+376,bed_type_Couch_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+377,bed_type_Futon_concat_comments_sentiment_neutral_sentiment,1,0,1,0,0,0,0,1,1,2
+378,bed_type_Futon_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,1,1,3
+379,bed_type_Airbed_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+380,instant_bookable_f_require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+381,instant_bookable_f_require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+382,instant_bookable_t_require_guest_profile_picture_f,1,1,2,0,0,0,0,0,0,2
+383,instant_bookable_t_require_guest_profile_picture_t,1,1,2,0,0,0,0,0,0,2
+384,instant_bookable_f_require_guest_phone_verification_f,1,1,2,0,0,0,0,1,1,3
+385,instant_bookable_f_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+386,instant_bookable_t_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+387,instant_bookable_t_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+388,instant_bookable_f_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+389,instant_bookable_f_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+390,instant_bookable_f_cancellation_policy_flexible,1,1,2,0,0,0,1,0,1,3
+391,instant_bookable_t_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+392,instant_bookable_t_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+393,instant_bookable_t_cancellation_policy_flexible,1,1,2,0,0,0,1,0,1,3
+394,instant_bookable_t_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+395,instant_bookable_t_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+396,instant_bookable_f_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+397,instant_bookable_f_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+398,instant_bookable_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+399,instant_bookable_f_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+400,instant_bookable_t_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+401,instant_bookable_t_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+402,instant_bookable_t_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+403,instant_bookable_t_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+404,require_guest_profile_picture_f_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+405,require_guest_profile_picture_f_require_guest_phone_verification_t,1,1,2,0,0,0,0,1,1,3
+406,require_guest_profile_picture_t_require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+407,require_guest_profile_picture_t_require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+408,require_guest_profile_picture_f_cancellation_policy_moderate,1,1,2,0,0,0,0,1,1,3
+409,require_guest_profile_picture_f_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+410,require_guest_profile_picture_f_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+411,require_guest_profile_picture_f_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+412,require_guest_profile_picture_f_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+413,require_guest_profile_picture_t_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+414,require_guest_profile_picture_t_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+415,require_guest_profile_picture_t_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+416,require_guest_profile_picture_f_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,1,1,3
+417,require_guest_profile_picture_f_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+418,require_guest_profile_picture_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,1,1,3
+419,require_guest_profile_picture_f_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+420,require_guest_profile_picture_t_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+421,require_guest_phone_verification_f_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+422,require_guest_phone_verification_f_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+423,require_guest_phone_verification_f_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+424,require_guest_phone_verification_f_cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+425,require_guest_phone_verification_f_cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+426,require_guest_phone_verification_t_cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+427,require_guest_phone_verification_t_cancellation_policy_strict_14_with_grace_period,1,1,2,0,0,0,0,0,0,2
+428,require_guest_phone_verification_t_cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+429,require_guest_phone_verification_f_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+430,require_guest_phone_verification_f_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+431,require_guest_phone_verification_f_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,1,1,2,4
+432,require_guest_phone_verification_f_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+433,require_guest_phone_verification_t_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+434,require_guest_phone_verification_t_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,1,1,3
+435,cancellation_policy_moderate_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,1,0,1,3
+436,cancellation_policy_moderate_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+437,cancellation_policy_moderate_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+438,cancellation_policy_strict_14_with_grace_period_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+439,cancellation_policy_strict_14_with_grace_period_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+440,cancellation_policy_strict_14_with_grace_period_concat_comments_sentiment_negative_sentiment,1,0,1,0,0,0,0,1,1,2
+441,cancellation_policy_flexible_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+442,cancellation_policy_flexible_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+443,cancellation_policy_flexible_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+444,cancellation_policy_flexible_concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+445,cancellation_policy_super_strict_30_concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+446,cancellation_policy_super_strict_30_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+447,cancellation_policy_super_strict_60_concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,1,1,3
+448,cancellation_policy_super_strict_60_concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+449,translation_missing:_en.hosting_amenity_49,0,0,0,0,0,0,0,0,0,0
+450,extra_pillows_and_blankets,1,1,2,0,0,0,1,0,1,3
+451,room-darkening_shades,1,1,2,0,0,0,0,0,0,2
+452,fireplace_guards,1,1,2,0,0,0,0,1,1,3
+453,lock_on_bedroom_door,1,1,2,0,0,0,1,0,1,3
+454,patio_or_balcony,1,1,2,0,0,0,0,0,0,2
+455,translation_missing:_en.hosting_amenity_50,1,1,2,0,0,0,0,0,0,2
+456,toilet,1,1,2,0,0,0,0,0,0,2
+457,well-lit_path_to_entrance,1,1,2,0,0,0,1,0,1,3
+458,wide_entryway,1,1,2,0,0,0,0,0,0,2
+459,stair_gates,1,1,2,0,0,0,0,0,0,2
+460,ski-in/ski-out,0,0,0,0,0,0,0,0,0,0
+461,dishwasher,1,1,2,0,0,0,1,0,1,3
+462,cable_tv,1,1,2,0,0,0,1,0,1,3
+463,heating,1,1,2,0,0,0,0,0,0,2
+464,children���s_books_and_toys,1,1,2,0,0,0,1,0,1,3
+465,paid_parking_off_premises,1,1,2,0,0,0,1,0,1,3
+466,full_kitchen,1,1,2,0,0,0,0,0,0,2
+467,free_street_parking,1,1,2,0,0,0,0,0,0,2
+468,babysitter_recommendations,1,1,2,0,0,0,0,0,0,2
+469,game_console,1,1,2,0,0,0,0,0,0,2
+470,bath_towel,1,0,1,0,0,0,0,0,0,1
+471,high_chair,1,1,2,0,0,0,0,0,0,2
+472,washer,1,1,2,0,0,0,0,0,0,2
+473,crib,1,1,2,0,0,0,0,0,0,2
+474,pets_allowed,1,1,2,0,0,0,1,0,1,3
+475,laptop_friendly_workspace,1,1,2,0,0,0,0,0,0,2
+476,free_parking_on_premises,1,1,2,0,0,0,1,0,1,3
+477,changing_table,0,0,0,0,0,0,0,0,0,0
+478,beach_essentials,1,1,2,0,0,0,0,0,0,2
+479,hot_water,1,1,2,0,0,0,0,0,0,2
+480,pets_live_on_this_property,1,1,2,0,0,0,0,0,0,2
+481,breakfast_table,1,1,2,0,0,0,0,0,0,2
+482,doorman,1,1,2,0,0,0,0,0,0,2
+483,oven,1,1,2,0,0,0,0,0,0,2
+484,netflix,1,1,2,0,0,0,0,0,0,2
+485,other,1,1,2,0,0,0,0,0,0,2
+486,private_entrance,1,1,2,0,0,0,1,0,1,3
+487,ceiling_hoist,0,0,0,0,0,0,0,1,1,1
+488,indoor_fireplace,1,1,2,0,0,0,0,0,0,2
+489,smoke_detector,1,1,2,0,0,0,1,0,1,3
+490,air_conditioning,1,1,2,0,0,0,0,0,0,2
+491,pocket_wifi,1,1,2,0,0,0,0,0,0,2
+492,kitchen,1,1,2,0,0,0,0,0,0,2
+493,wide_clearance_to_bed,1,1,2,0,0,0,0,0,0,2
+494,gym,1,1,2,0,0,0,0,0,0,2
+495,firm_mattress,0,0,0,0,0,0,0,1,1,1
+496,ground_floor_access,1,1,2,0,0,0,0,1,1,3
+497,handheld_shower_head,1,1,2,0,0,0,0,0,0,2
+498,private_bathroom,1,1,2,0,0,0,0,1,1,3
+499,sound_system,1,1,2,0,0,0,0,0,0,2
+500,self_check-in,1,1,2,0,0,0,0,1,1,3
+501,smart_tv,1,1,2,0,0,0,0,0,0,2
+502,fixed_grab_bars_for_shower,1,1,2,0,0,0,0,1,1,3
+503,hair_dryer,1,1,2,0,0,0,0,0,0,2
+504,wide_hallway_clearance,1,1,2,0,0,0,0,0,0,2
+505,hangers,1,1,2,0,0,0,1,0,1,3
+506,first_aid_kit,1,1,2,0,0,0,0,0,0,2
+507,convection_oven,1,1,2,0,0,0,0,0,0,2
+508,24-hour_check-in,1,1,2,0,0,0,0,0,0,2
+509,building_staff,1,1,2,0,0,0,0,1,1,3
+510,smart_lock,1,1,2,0,0,0,0,0,0,2
+511,single_level_home,1,1,2,0,0,0,0,0,0,2
+512,iron,1,1,2,0,0,0,0,0,0,2
+513,cleaning_before_checkout,1,1,2,0,0,0,0,0,0,2
+514,garden_or_backyard,1,1,2,0,0,0,1,0,1,3
+515,ev_charger,1,1,2,0,0,0,0,0,0,2
+516,waterfront,1,1,2,0,0,0,0,0,0,2
+517,cat(s),0,0,0,0,0,0,0,0,0,0
+518,bedroom_comforts,1,0,1,0,0,0,0,0,0,1
+519,outlet_covers,1,1,2,0,0,0,0,0,0,2
+520,pack_���n_play/travel_crib,1,1,2,0,0,0,0,0,0,2
+521,other_pet(s),1,1,2,0,0,0,0,0,0,2
+522,washer_/_dryer,1,1,2,0,0,0,0,1,1,3
+523,bathroom_essentials,1,0,1,0,0,0,0,0,0,1
+524,hot_tub,1,1,2,0,0,0,0,0,0,2
+525,essentials,1,1,2,0,0,0,0,0,0,2
+526,bbq_grill,1,1,2,0,0,0,0,0,0,2
+527,luggage_dropoff_allowed,1,1,2,0,0,0,1,0,1,3
+528,electric_profiling_bed,1,1,2,0,0,0,0,1,1,3
+529,safety_card,1,1,2,0,0,0,1,0,1,3
+530,pool,1,1,2,0,0,0,0,1,1,3
+531,beachfront,1,1,2,0,0,0,0,1,1,3
+532,bathtub,1,1,2,0,0,0,0,0,0,2
+533,flat_path_to_front_door,1,1,2,0,0,0,0,0,0,2
+534,internet,1,1,2,0,1,0,0,0,1,3
+535,smoking_allowed,1,1,2,0,0,0,0,0,0,2
+536,disabled_parking_spot,1,1,2,0,0,0,0,0,0,2
+537,suitable_for_events,1,1,2,0,0,0,0,0,0,2
+538,bed_linens,1,1,2,0,0,0,0,0,0,2
+539,wide_doorway,1,1,2,0,0,0,0,0,0,2
+540,window_guards,1,1,2,0,0,0,0,1,1,3
+541,elevator,1,1,2,0,0,0,1,0,1,3
+542,dryer,1,1,2,0,0,0,1,0,1,3
+543,lake_access,1,1,2,0,0,0,0,1,1,3
+544,kitchenette,1,1,2,0,0,0,0,0,0,2
+545,cooking_basics,1,1,2,0,0,0,1,0,1,3
+546,family/kid_friendly,1,1,2,0,0,0,1,0,1,3
+547,wifi,1,1,2,0,0,0,0,0,0,2
+548,hot_water_kettle,1,1,2,0,0,0,0,0,0,2
+549,body_soap,1,0,1,0,0,0,0,0,0,1
+550,baby_monitor,1,1,2,0,0,0,0,1,1,3
+551,ethernet_connection,1,1,2,0,0,0,0,0,0,2
+552,stove,1,1,2,0,0,0,0,0,0,2
+553,shower_chair,1,1,2,0,0,0,0,1,1,3
+554,host_greets_you,1,1,2,0,0,0,1,0,1,3
+555,bathtub_with_bath_chair,1,1,2,0,0,0,0,0,0,2
+556,shampoo,1,1,2,0,0,0,1,0,1,3
+557,wheelchair_accessible,1,1,2,0,0,0,0,0,0,2
+558,air_purifier,1,1,2,0,0,0,0,1,1,3
+559,tv,1,1,2,0,0,0,1,0,1,3
+560,paid_parking_on_premises,1,1,2,0,0,0,0,0,0,2
+561,fixed_grab_bars_for_toilet,1,1,2,0,0,0,0,0,0,2
+562,dog(s),1,1,2,0,0,0,0,0,0,2
+563,toilet_paper,1,0,1,0,0,0,0,0,0,1
+564,breakfast,0,0,0,0,0,0,1,0,1,1
+565,accessible-height_toilet,1,1,2,0,0,0,0,0,0,2
+566,fire_extinguisher,1,1,2,0,0,0,1,0,1,3
+567,children���s_dinnerware,1,1,2,0,0,0,1,1,2,4
+568,long_term_stays_allowed,1,1,2,0,1,0,1,0,2,4
+569,carbon_monoxide_detector,1,1,2,0,0,0,1,0,1,3
+570,dishes_and_silverware,1,1,2,0,0,0,0,0,0,2
+571,microwave,1,1,2,0,0,0,1,0,1,3
+572,step-free_access,1,1,2,0,0,0,0,0,0,2
+573,refrigerator,1,1,2,0,0,0,0,0,0,2
+574,keypad,1,1,2,0,0,0,0,0,0,2
+575,table_corner_guards,1,1,2,0,0,0,0,1,1,3
+576,lockbox,1,1,2,0,0,0,0,1,1,3
+577,baby_bath,1,1,2,0,0,0,0,0,0,2
+578,wide_clearance_to_shower,1,1,2,0,0,0,0,0,0,2
+579,buzzer/wireless_intercom,1,1,2,0,0,0,1,0,1,3
+580,private_living_room,1,1,2,0,0,0,1,0,1,3
+581,accessible-height_bed,1,1,2,0,0,0,0,0,0,2
+582,coffee_maker,1,1,2,0,0,0,1,0,1,3
+583,roll-in_shower,1,1,2,0,0,0,0,1,1,3
+584,google,1,1,2,0,0,0,0,0,0,2
+585,sent_id,1,1,2,0,0,0,0,1,1,3
+586,jumio,1,1,2,0,0,0,0,0,0,2
+587,email,1,1,2,0,0,0,0,0,0,2
+588,manual_online,1,1,2,0,0,0,0,0,0,2
+589,selfie,1,1,2,0,0,0,1,0,1,3
+590,work_email,1,1,2,0,0,0,0,0,0,2
+591,facebook,1,1,2,0,0,0,1,0,1,3
+592,reviews,1,1,2,0,0,0,1,0,1,3
+593,sesame_offline,1,1,2,0,0,0,0,0,0,2
+594,identity_manual,1,1,2,0,0,0,0,0,0,2
+595,weibo,0,0,0,0,0,0,0,1,1,1
+596,phone,1,1,2,0,0,0,0,0,0,2
+597,sesame,1,1,2,0,0,0,0,0,0,2
+598,photographer,0,0,0,0,0,0,0,1,1,1
+599,manual_offline,1,1,2,0,0,0,0,0,0,2
+600,offline_government_id,1,1,2,0,0,0,1,0,1,3
+601,zhima_selfie,0,0,0,0,0,0,0,1,1,1
+602,kba,1,1,2,0,0,0,0,0,0,2
+603,government_id,1,1,2,0,0,0,0,0,0,2
+604,neighbourhood_group_Charlottenburg-Wilm.,1,1,2,0,0,0,0,0,0,2
+605,neighbourhood_group_Friedrichshain-Kreuzberg,1,1,2,0,0,0,1,0,1,3
+606,neighbourhood_group_Lichtenberg,1,1,2,0,0,0,0,0,0,2
+607,neighbourhood_group_Marzahn - Hellersdorf,1,1,2,0,0,0,0,0,0,2
+608,neighbourhood_group_Mitte,1,1,2,0,0,0,1,0,1,3
+609,neighbourhood_group_Neuk��lln,1,1,2,0,0,0,0,0,0,2
+610,neighbourhood_group_Pankow,1,1,2,0,0,0,0,0,0,2
+611,neighbourhood_group_Reinickendorf,1,1,2,0,0,0,0,0,0,2
+612,neighbourhood_group_Spandau,1,1,2,0,0,0,0,0,0,2
+613,neighbourhood_group_Steglitz - Zehlendorf,1,1,2,0,0,0,0,0,0,2
+614,neighbourhood_group_Tempelhof - Sch��neberg,1,1,2,0,0,0,1,0,1,3
+615,neighbourhood_group_Treptow - K��penick,1,1,2,0,0,0,0,0,0,2
+616,room_type_Entire home/apt,1,1,2,0,0,0,0,0,0,2
+617,room_type_Private room,1,1,2,0,0,0,0,0,0,2
+618,room_type_Shared room,1,1,2,0,0,0,0,0,0,2
+619,property_type_Aparthotel,1,1,2,0,0,0,0,1,1,3
+620,property_type_Apartment,1,1,2,0,0,0,1,1,2,4
+621,property_type_Barn,1,1,2,0,0,0,0,1,1,3
+622,property_type_Bed and breakfast,1,1,2,0,0,0,0,0,0,2
+623,property_type_Boat,1,1,2,0,0,0,0,1,1,3
+624,property_type_Boutique hotel,1,1,2,0,0,0,0,1,1,3
+625,property_type_Bungalow,1,1,2,0,0,0,0,0,0,2
+626,property_type_Cabin,1,1,2,0,0,0,0,0,0,2
+627,property_type_Camper/RV,0,0,0,0,0,0,0,0,0,0
+628,property_type_Casa particular (Cuba),0,0,0,0,0,0,0,1,1,1
+629,property_type_Castle,1,1,2,0,0,0,0,1,1,3
+630,property_type_Cave,0,0,0,0,0,0,0,1,1,1
+631,property_type_Chalet,0,0,0,0,0,0,0,1,1,1
+632,property_type_Condominium,1,1,2,0,0,0,0,1,1,3
+633,property_type_Cottage,1,1,2,0,0,0,0,1,1,3
+634,property_type_Guest suite,1,1,2,0,0,0,0,1,1,3
+635,property_type_Guesthouse,1,1,2,0,0,0,0,1,1,3
+636,property_type_Hostel,1,1,2,0,0,0,0,1,1,3
+637,property_type_Hotel,1,0,1,0,0,0,0,1,1,2
+638,property_type_House,1,1,2,0,0,0,1,0,1,3
+639,property_type_Houseboat,1,1,2,0,0,0,0,1,1,3
+640,property_type_In-law,1,1,2,0,0,0,0,1,1,3
+641,property_type_Island,1,1,2,0,0,0,0,0,0,2
+642,property_type_Loft,1,1,2,0,0,0,0,1,1,3
+643,property_type_Other,1,1,2,0,0,0,0,0,0,2
+644,property_type_Pension (South Korea),1,1,2,0,0,0,0,1,1,3
+645,property_type_Resort,0,0,0,0,0,0,0,1,1,1
+646,property_type_Serviced apartment,1,1,2,0,0,0,0,0,0,2
+647,property_type_Tiny house,1,1,2,0,0,0,0,1,1,3
+648,property_type_Tipi,0,0,0,0,0,0,0,0,0,0
+649,property_type_Townhouse,1,1,2,0,0,0,0,0,0,2
+650,property_type_Train,0,0,0,0,0,0,0,1,1,1
+651,property_type_Villa,1,1,2,0,0,0,0,1,1,3
+652,host_response_time_a few days or more,1,1,2,0,0,0,0,0,0,2
+653,host_response_time_missing_host_response_time,1,1,2,0,1,0,1,0,2,4
+654,host_response_time_within a day,1,1,2,0,0,0,0,0,0,2
+655,host_response_time_within a few hours,1,1,2,0,0,0,0,1,1,3
+656,host_response_time_within an hour,1,1,2,0,0,0,0,0,0,2
+657,host_is_superhost_f,1,1,2,0,0,0,0,0,0,2
+658,host_is_superhost_missing_host_is_superhost,1,1,2,0,0,0,0,0,0,2
+659,host_is_superhost_t,1,1,2,0,0,0,0,0,0,2
+660,host_has_profile_pic_f,1,1,2,0,0,0,0,0,0,2
+661,host_has_profile_pic_missing_host_has_profile_pic,1,1,2,0,0,0,0,0,0,2
+662,host_has_profile_pic_t,1,1,2,0,0,0,0,0,0,2
+663,host_identity_verified_f,1,1,2,0,0,0,0,0,0,2
+664,host_identity_verified_missing_host_identity_verified,1,1,2,0,0,0,0,0,0,2
+665,host_identity_verified_t,1,1,2,0,0,0,0,0,0,2
+666,bed_type_Airbed,1,1,2,0,0,0,0,1,1,3
+667,bed_type_Couch,0,0,0,0,0,0,0,1,1,1
+668,bed_type_Futon,1,1,2,0,0,0,0,0,0,2
+669,bed_type_Pull-out Sofa,1,1,2,0,0,0,0,0,0,2
+670,bed_type_Real Bed,0,0,0,0,0,0,0,0,0,0
+671,instant_bookable_f,1,1,2,0,0,0,0,0,0,2
+672,instant_bookable_t,1,1,2,0,0,0,0,0,0,2
+673,is_business_travel_ready_f,0,0,0,0,0,0,0,0,0,0
+674,require_guest_profile_picture_f,1,1,2,0,0,0,0,1,1,3
+675,require_guest_profile_picture_t,1,1,2,0,0,0,0,1,1,3
+676,require_guest_phone_verification_f,1,1,2,0,0,0,0,0,0,2
+677,require_guest_phone_verification_t,1,1,2,0,0,0,0,0,0,2
+678,cancellation_policy_flexible,1,1,2,0,0,0,0,0,0,2
+679,cancellation_policy_moderate,1,1,2,0,0,0,0,0,0,2
+680,cancellation_policy_strict_14_with_grace_period,1,1,2,0,1,0,0,0,1,3
+681,cancellation_policy_super_strict_30,1,1,2,0,0,0,0,0,0,2
+682,cancellation_policy_super_strict_60,1,1,2,0,0,0,0,0,0,2
+683,concat_comments_sentiment_missing_concat_comments_sentiment,1,1,2,0,0,0,0,0,0,2
+684,concat_comments_sentiment_negative_sentiment,1,1,2,0,0,0,0,0,0,2
+685,concat_comments_sentiment_neutral_sentiment,1,1,2,0,0,0,0,0,0,2
+686,concat_comments_sentiment_positive_sentiment,1,1,2,0,0,0,0,0,0,2
+687,host_response_rate_cat_host_response_rate_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+688,host_response_rate_cat_host_response_rate_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+689,host_response_rate_cat_host_response_rate_missing,1,1,2,0,1,0,1,1,3,5
+690,size_cat_size_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+691,size_cat_size_25%_to_50%,1,1,2,0,0,0,1,0,1,3
+692,size_cat_size_50%_to_75%,1,1,2,0,0,0,0,0,0,2
+693,size_cat_size_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+694,size_cat_size_missing,1,1,2,0,0,0,1,0,1,3
+695,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_0%_to_25%,1,1,2,0,0,0,1,1,2,4
+696,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_25%_to_50%,1,1,2,0,1,0,0,0,1,3
+697,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_50%_to_75%,1,1,2,0,1,0,1,0,2,4
+698,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_75%_to_100%,1,1,2,0,1,0,0,0,1,3
+699,avg_dollar_price_in_previous_period_cat_avg_dollar_price_in_previous_period_missing,1,1,2,1,1,0,1,1,4,6
+700,concat_comments_subjectivity_cat_concat_comments_subjectivity_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+701,concat_comments_subjectivity_cat_concat_comments_subjectivity_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+702,concat_comments_subjectivity_cat_concat_comments_subjectivity_50%_to_75%,1,1,2,0,0,0,1,0,1,3
+703,concat_comments_subjectivity_cat_concat_comments_subjectivity_75%_to_100%,1,1,2,0,0,0,0,0,0,2
+704,concat_comments_subjectivity_cat_concat_comments_subjectivity_missing,1,1,2,0,0,0,0,0,0,2
+705,concat_comments_polarity_cat_concat_comments_polarity_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+706,concat_comments_polarity_cat_concat_comments_polarity_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+707,concat_comments_polarity_cat_concat_comments_polarity_50%_to_75%,1,1,2,0,0,0,0,0,0,2
+708,concat_comments_polarity_cat_concat_comments_polarity_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+709,concat_comments_polarity_cat_concat_comments_polarity_missing,1,1,2,0,0,0,0,0,0,2
+710,review_scores_value_cat_review_scores_value_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+711,review_scores_value_cat_review_scores_value_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+712,review_scores_value_cat_review_scores_value_missing,1,1,2,0,0,0,0,0,0,2
+713,review_scores_checkin_cat_review_scores_checkin_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+714,review_scores_checkin_cat_review_scores_checkin_missing,1,1,2,0,0,0,0,0,0,2
+715,review_scores_location_cat_review_scores_location_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+716,review_scores_location_cat_review_scores_location_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+717,review_scores_location_cat_review_scores_location_missing,1,1,2,0,0,0,0,0,0,2
+718,review_scores_communication_cat_review_scores_communication_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+719,review_scores_communication_cat_review_scores_communication_missing,1,1,2,0,0,0,0,0,0,2
+720,review_scores_accuracy_cat_review_scores_accuracy_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+721,review_scores_accuracy_cat_review_scores_accuracy_missing,1,1,2,0,0,0,0,0,0,2
+722,review_scores_cleanliness_cat_review_scores_cleanliness_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+723,review_scores_cleanliness_cat_review_scores_cleanliness_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+724,review_scores_cleanliness_cat_review_scores_cleanliness_missing,1,1,2,0,0,0,0,0,0,2
+725,review_scores_rating_cat_review_scores_rating_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+726,review_scores_rating_cat_review_scores_rating_25%_to_50%,1,1,2,0,0,0,1,0,1,3
+727,review_scores_rating_cat_review_scores_rating_50%_to_75%,1,1,2,0,0,0,0,0,0,2
+728,review_scores_rating_cat_review_scores_rating_missing,1,1,2,0,0,0,0,0,0,2
+729,reviews_per_month_cat_reviews_per_month_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+730,reviews_per_month_cat_reviews_per_month_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+731,reviews_per_month_cat_reviews_per_month_50%_to_75%,1,1,2,0,0,0,1,0,1,3
+732,reviews_per_month_cat_reviews_per_month_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+733,reviews_per_month_cat_reviews_per_month_missing,1,1,2,0,0,0,0,0,0,2
+734,DaysPassed_first_review_cat_DaysPassed_first_review_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+735,DaysPassed_first_review_cat_DaysPassed_first_review_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+736,DaysPassed_first_review_cat_DaysPassed_first_review_50%_to_75%,1,1,2,0,0,0,1,0,1,3
+737,DaysPassed_first_review_cat_DaysPassed_first_review_75%_to_100%,1,1,2,0,1,0,1,0,2,4
+738,DaysPassed_first_review_cat_DaysPassed_first_review_missing,1,1,2,0,0,0,0,0,0,2
+739,DaysPassed_last_review_cat_DaysPassed_last_review_0%_to_25%,1,1,2,0,1,0,0,0,1,3
+740,DaysPassed_last_review_cat_DaysPassed_last_review_25%_to_50%,1,1,2,0,0,0,0,0,0,2
+741,DaysPassed_last_review_cat_DaysPassed_last_review_50%_to_75%,1,1,2,0,0,0,1,0,1,3
+742,DaysPassed_last_review_cat_DaysPassed_last_review_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+743,DaysPassed_last_review_cat_DaysPassed_last_review_missing,1,1,2,0,0,0,0,0,0,2
+744,beds_cat_beds_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+745,beds_cat_beds_50%_to_75%,1,1,2,0,0,0,1,0,1,3
+746,beds_cat_beds_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+747,beds_cat_beds_missing,1,1,2,0,0,0,0,0,0,2
+748,bathrooms_cat_bathrooms_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+749,bathrooms_cat_bathrooms_75%_to_100%,1,1,2,0,0,0,0,0,0,2
+750,bathrooms_cat_bathrooms_missing,1,1,2,0,0,0,0,0,0,2
+751,DaysPassed_host_since_cat_DaysPassed_host_since_0%_to_25%,0,0,0,0,0,0,0,0,0,0
+752,DaysPassed_host_since_cat_DaysPassed_host_since_25%_to_50%,1,1,2,0,0,0,1,0,1,3
+753,DaysPassed_host_since_cat_DaysPassed_host_since_50%_to_75%,1,1,2,0,0,0,0,0,0,2
+754,DaysPassed_host_since_cat_DaysPassed_host_since_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+755,DaysPassed_host_since_cat_DaysPassed_host_since_missing,1,1,2,0,0,0,0,0,0,2
+756,host_total_listings_count_cat_host_total_listings_count_0%_to_25%,1,1,2,0,1,0,0,0,1,3
+757,host_total_listings_count_cat_host_total_listings_count_50%_to_75%,1,1,2,0,0,0,1,0,1,3
+758,host_total_listings_count_cat_host_total_listings_count_75%_to_100%,1,1,2,0,1,0,0,0,1,3
+759,host_total_listings_count_cat_host_total_listings_count_missing,1,1,2,0,0,0,0,0,0,2
+760,bedrooms_cat_bedrooms_0%_to_25%,1,1,2,0,0,0,0,0,0,2
+761,bedrooms_cat_bedrooms_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+762,bedrooms_cat_bedrooms_missing,0,0,0,0,0,0,0,1,1,1
+763,sqrt_bedrooms_cat_sqrt_bedrooms_0%_to_25%,1,1,2,0,0,0,1,0,1,3
+764,sqrt_bedrooms_cat_sqrt_bedrooms_75%_to_100%,1,1,2,0,0,0,1,0,1,3
+765,sqrt_bedrooms_cat_sqrt_bedrooms_missing,0,0,0,0,0,0,0,1,1,1
+766,latitude,1,1,2,0,1,0,1,1,3,5
+767,longitude,1,1,2,0,1,0,1,0,2,4
+768,scrape_id,0,0,0,0,0,0,0,0,0,0
+769,price,1,1,2,0,1,0,1,0,2,4
+770,minimum_nights,1,1,2,1,1,0,1,0,3,5
+771,number_of_reviews,1,1,2,1,1,0,1,0,3,5
+772,availability_365,1,1,2,1,1,0,1,1,4,6
+773,accommodates,1,1,2,0,1,0,1,0,2,4
+774,security_deposit,1,1,2,0,0,0,0,0,0,2
+775,cleaning_fee,1,1,2,1,1,0,1,0,3,5
+776,extra_people,1,1,2,1,1,0,1,0,3,5
+777,maximum_nights,1,1,2,0,1,0,0,0,1,3
+778,sqrt_calculated_host_listings_count,1,1,2,0,1,0,1,0,2,4
+779,sigmoid_calculated_host_listings_count,1,1,2,0,1,0,0,1,2,4
+780,sqrt_guests_included,1,1,2,0,0,0,0,0,0,2
+781,availability_60_minus_availability_90,1,1,2,0,1,1,1,0,3,5
+782,availability_30_minus_availability_60,1,1,2,0,1,0,1,0,2,4
+783,availability_365_minus_availability_90,1,1,2,1,1,1,1,1,5,7
+784,availability_30_minus_availability_90,1,1,2,0,1,0,1,0,2,4
+785,availability_365_minus_availability_60,1,1,2,1,1,1,1,1,5,7
+786,target_num_of_day_in_period_div_num_of_day_in_previous_period,1,1,2,0,1,1,0,1,3,5
+787,occupancy_last_period_minus_availability_60,1,1,2,1,1,0,1,1,4,6
+788,occupancy_last_period_minus_availability_365,1,1,2,0,1,1,1,1,4,6
+789,occupancy_last_period_minus_availability_90,1,1,2,1,1,1,1,1,5,7
+790,mean_temperatures_in_previous_period,1,1,2,0,1,1,1,0,3,5
+791,mean_temperatures_in_target_period,1,1,2,0,1,1,1,1,4,6
+792,mean_of_min_temperatures_in_previous_period,1,1,2,0,1,1,1,0,3,5
+793,mean_of_min_temperatures_in_target_period,1,1,2,0,1,0,1,1,3,5
+794,mean_of_max_temperatures_in_previous_period,1,1,2,0,1,1,1,0,3,5
+795,mean_of_max_temperatures_in_target_period,1,1,2,0,1,1,1,1,4,6
+796,mean_precipitation_millimeters_in_previous_period,1,1,2,0,1,0,1,1,3,5
+797,mean_precipitation_millimeters_in_target_period,1,1,2,1,1,1,1,0,4,6
+798,mean_precipitation_days_in_previous_period,1,1,2,0,1,1,0,1,3,5
+799,mean_precipitation_days_in_target_period,1,1,2,0,1,0,1,1,3,5
+800,mean_sunshine_hours_in_day_in_previous_period,1,1,2,0,1,1,1,0,3,5
+801,mean_sunshine_hours_in_day_in_target_period,1,1,2,0,1,0,0,1,2,4
+802,mean_sunshine_hours_in_month_in_previous_period,1,1,2,0,1,1,1,1,4,6
+803,mean_sunshine_hours_in_month_in_target_period,1,1,2,1,1,0,1,1,4,6
+804,distance_from_center,1,1,2,1,1,0,1,0,3,5
