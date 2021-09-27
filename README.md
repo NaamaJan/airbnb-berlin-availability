@@ -127,8 +127,13 @@ After fine tunning checking the performance on test partition.
 This notbook assists filling out "Data Retrieval Protocol.xlsx". For each source of data we get datafarme which desribe the features (and dumping the results to 'data_retrieval_protocol_helper.csv'). Using this csv for cutting results from it to "Data Retrieval Protocol.xlsx". This notbook support the following columns:
 
 •	"Feature name"
+
 •	"Source"
+
 •	"Unique count"
+
 •	"Min"
+
 •	"Max"
-"Notes"
+
+•	"Notes"
