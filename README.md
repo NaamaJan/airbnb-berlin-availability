@@ -49,16 +49,19 @@ Importing the following datasets from this website:
 •	Average temperatures
 
 
-## Sources:
+## SQL (prepparing the data):
 
-### SQL
-Using SQL for creating flat table in SQL Server
+Using SQL for creating flat table in SQL Server:
 
 •	sql/train-target.sql
 
 •	sql/flat-file.sql
 
+## Notebooks:
 
-
+### 1- Addition to Flat file.ipynb
+Most of the variables have been added in the SQL section, but for adding some variables we need python. 
+I add these variables in this section, that these variables will be available in EDA and Data cleansing. 
+This pre-EDA section.
 
  
