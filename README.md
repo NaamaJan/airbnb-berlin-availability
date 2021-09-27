@@ -18,7 +18,7 @@ I examine the occupancy of the properties, according to the variables in the mod
 In general, there are variables that I expect to have a high significant influence on the outcome.
 For example, price, location (neighborhood), the distance to the city center, the size of the property, room type, reviews (especially review scores rating) and etc.
 
-## Source of Data
+## Data
 
 The main datasets are based on properties list with description (features) and information whether a property is being rented in each day from November 2018 until November 2019 (every record describes property in a day).
 
@@ -48,6 +48,15 @@ Importing the following datasets from this website:
 
 •	Average temperatures
 
+
+## Sources:
+
+### SQL
+Using SQL for creating flat table in SQL Server
+
+•	sql/train-target.sql
+
+•	sql/flat-file.sql
 
 
 
