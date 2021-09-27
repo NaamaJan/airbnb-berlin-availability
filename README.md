@@ -19,7 +19,7 @@ In general, there are variables that I expect to have a high significant influen
 For example, price, location (neighborhood), the distance to the city center, the size of the property, room type, reviews (especially review scores rating) and etc.
 
 ## Source of Data
-Data
+
 The main datasets are based on properties list with description (features) and information whether a property is being rented in each day from November 2018 until November 2019 (every record describes property in a day).
 As mentioned in the introduction, our target is predicting whether a property will be rented in the next 3 months (defining the booked_up_target base on occupancy of the property).  
 These datasets are taken from Kaggle and ensembled from 6 different csv files:
