@@ -59,14 +59,14 @@ Using SQL for creating flat table in SQL Server:
 
 ## Notebooks:
 
-### 1- Addition to Flat file.ipynb
+### 1- Addition to Flat file.
 Most of the variables have been added in the SQL section, but for adding some variables we need python. 
 
 I add these variables in this section, that these variables will be available in EDA and Data cleansing.
  
 This pre-EDA section.
 
-### 2- Exploratory Data Analysis.ipynb
+### 2- Exploratory Data Analysis
 
 A analysis of the detailed Berlin listings data. I am using visualizing and analyzing data to extract insights from the variables in the data.
 
@@ -88,7 +88,7 @@ Data cleansing includes:
 •	Handling missing values.
 
 
-### 4- Feature Enrichment.ipynb
+### 4- Feature Enrichment
 
 There are 3 ways to enrich the data:
 
@@ -100,7 +100,7 @@ There are 3 ways to enrich the data:
 
 
 
-### 5 - Feature Selection.ipynb
+### 5 - Feature Selection
 
 Selection of features is based on voting, using techniques of univariate and multivariate.  
 
